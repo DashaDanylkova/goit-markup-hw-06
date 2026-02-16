@@ -10,52 +10,6 @@
 /* Hero section */
 
 
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-
-.section-hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./../images/hero-background.jpg);
-    max-width: 1440px;
-    padding-top: 188px;
-    padding-bottom: 188px;
-}
-.main-title {
-    color: #FFFFFF;
-    text-align: center;
-    line-height: 1.07143;
-    font-size: 56px;
-    letter-spacing: 0.02em;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 496px;
-
-}
-.main_button {
-    display: block;
-    cursor: pointer;
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    font-size: 16px;
-    color: #FFFFFF;
-    background-color: #4D5AE5;
-    margin: 48px auto 0 auto;
-    border: none;
-    border-radius: 4px;
-    padding: 16px 32px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.main_button:hover,
-.main_button:focus {
-    background-color: #404BBF;
-}
-
-
 
 
 /* Benefits section */
