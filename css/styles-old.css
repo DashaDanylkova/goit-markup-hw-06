@@ -1,49 +1,5 @@
 
 
-/* Header */
-
-
-
-
-
-
-/* Hero section */
-
-
-
-
-/* Benefits section */
-
-.benefits-list {
-    display: flex;
-    align-items: flex-start;
-    gap: 24px;
-}
-
-.benefits-list-item {
-    width: calc((100% - 72px) / 4);
-}
-
-
-.features-icons-container {
-    width: 100%;
-    height: 112px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #8E8F99;
-        border-radius: 4px;
-    background-color: #f4f4fd;
-    margin-bottom: 8px;
-    
-}
-
-
-.benefits-text {
-    margin-top: 8px;
-}
-
 
 
 
