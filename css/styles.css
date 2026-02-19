@@ -471,6 +471,9 @@ a:not(.logo, .logo-footer):focus {
  .features-icons-container {
     display: none;
  }
+ .benefits-list-item {
+    width: 100%;
+ }
 .benefits-list-title {
     font-weight: 700;
         font-size: 36px;
@@ -645,6 +648,7 @@ a:not(.logo, .logo-footer):focus {
         }
 
 .portfolio-list-item {
+    width: 100%;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0);
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -926,7 +930,7 @@ a:not(.logo, .logo-footer):focus {
         padding: 0 15px;
         gap:0;
         align-items: baseline;
-        justify-content: center;
+        justify-content: flex-start;
         flex-wrap: nowrap;
     }
     .footer-content {
@@ -938,7 +942,7 @@ a:not(.logo, .logo-footer):focus {
     }
 
     .subscribe-container {
-        margin-left: 0;
+        margin-left: auto;
     }
 
 
