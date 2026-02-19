@@ -360,7 +360,7 @@ a:not(.logo, .logo-footer):focus {
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
-     max-width: 432px;
+     max-width: 320px;
      margin: 0 auto;
      padding-top: 72px;
      padding-bottom: 72px;
@@ -698,7 +698,7 @@ a:not(.logo, .logo-footer):focus {
     width: calc((100% - 24px) / 2);
 }
 
-
+ }
   @media screen and (min-width: 1158px) {
 .portfolio-list {
         gap: 48px 24px;
@@ -712,13 +712,13 @@ a:not(.logo, .logo-footer):focus {
     .portfolio-list-item:hover .overlay {
             cursor: pointer;
         }
-  }
+  
  
   .portfolio-list-item:hover {
       cursor: pointer;
       box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   }
-}
+  }
 
 
 
